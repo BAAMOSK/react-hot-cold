@@ -10,10 +10,12 @@ import {initialState} from './reducers'
 import store from './store';
 
 
-console.log(store.getState());
-store.dispatch(addGuess(5));
+// console.log(store.getState());
+// store.dispatch(addGuess(5));
 console.log(store.getState());
 store.dispatch(addGuess(initialState.rightNumber));
+console.log(store.getState());
+store.dispatch(addGuess(5));
 console.log(store.getState());
 
 ReactDOM.render(

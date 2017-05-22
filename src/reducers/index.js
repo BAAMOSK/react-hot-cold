@@ -16,6 +16,7 @@ const hotColdReducer = (state=initialState, action) => {
     return Object.assign({}, initialState)
 
     case ADD_GUESS:
+    console.log(action);
     return Object.assign({}, state, {
       guesses: [...state.guesses, action.guess],
       feedback: feedbackGenerator(Math.abs(action.guess - state.rightNumber)),
