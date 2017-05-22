@@ -1,9 +1,13 @@
 import './reset.css';
 import React from 'react';
 import ReactDOM from 'react-dom';
+import './actions';
+
 import './reset.css';
 import './index.css';
+
 import Game from './components/game';
+
 
 
 ReactDOM.render(
