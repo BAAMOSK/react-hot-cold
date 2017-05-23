@@ -1,3 +1,4 @@
+/*eslint-disable*/
 export const feedbackGenerator = difference => {
   let feedback;
   switch(true) {
